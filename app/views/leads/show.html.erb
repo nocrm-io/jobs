@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lead.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @lead.description %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @lead.status %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @lead.amount %>
+</p>
+
+<p>
+  <strong>Probability:</strong>
+  <%= @lead.probability %>
+</p>
+
+<%= link_to 'Edit', edit_lead_path(@lead) %> |
+<%= link_to 'Back', leads_path %>
