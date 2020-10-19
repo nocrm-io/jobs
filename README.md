@@ -1,6 +1,6 @@
 # [You Don't Need a CRM](https://youdontneedacrm.com) - Technical test
 
-This is a test is part of our hiring process. 
+This test is part of our hiring process. 
 
 ## Guidelines
 
