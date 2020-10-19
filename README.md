@@ -66,7 +66,7 @@ L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape 
     - Permettre de modifier l'étape du lead
 - Quand l'utilisateur passe le lead en "won", le lead doit automatiquement passer à la dernière étape, et la probabilité doit passer à 100.
 - Créer une route `/leads/pipeline` :
-    - Cette page affiche autant de colonne que d'étapes (step)
+    - Cette page affiche autant de colonnes que d'étapes (Step)
     - 5 leads maximum par étape, les leads modifiés le plus récemment en premier
     - Pour chaque lead, afficher le `name`, le `status` et la date de dernière modification
     - A côté du nom de l'étape, afficher :
