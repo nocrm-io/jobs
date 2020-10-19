@@ -11,32 +11,44 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <div class="form-group row mb-2 mb-2">
+    <%= form.label :name, class: 'col-sm-3 col-form-label text-right text-right' %>
+    <div class="col-sm-9">
+     <%= form.text_field :name, class: 'form-control' %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+  <div class="form-group row mb-2">
+    <%= form.label :description, class: 'col-sm-3 col-form-label text-right' %>
+    <div class="col-sm-9">    
+      <%= form.text_area :description, class: 'form-control' %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :status %>
-    <%= form.select :status, Lead::STATUSES %>
+  <div class="form-group row mb-2">
+    <%= form.label :status, class: 'col-sm-3 col-form-label text-right' %>
+    <div class="col-sm-9">    
+      <%= form.select :status, Lead::STATUSES, {}, class: 'form-select' %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :amount %>
-    <%= form.number_field :amount %>
+  <div class="form-group row mb-2">
+    <%= form.label :amount, class: 'col-sm-3 col-form-label text-right' %>
+    <div class="col-sm-9">
+      <%= form.number_field :amount, class: 'form-control' %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :probability %>
-    <%= form.number_field :probability %>
+  <div class="form-group row mb-2">
+    <%= form.label :probability, class: 'col-sm-3 col-form-label text-right' %>
+    <div class="col-sm-9"> 
+      <%= form.number_field :probability, class: 'form-control' %>
+    </div>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group row mb-2">
+    <div class="offset-3 col-sm-9">    
+      <%= form.submit 'Save', class: 'btn btn-outline-success' %>
+    </div>
   </div>
 <% end %>
