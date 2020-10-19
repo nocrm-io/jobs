@@ -18,13 +18,12 @@
 
   <tbody>
     <% @leads.each do |lead| %>
-      <tr>
-        <td><%= lead.name %></td>
+      <tr class="align-middle">
+        <td><%= link_to lead.name, lead %></td>
         <td class="text-muted"><%= lead.description %></td>
         <td><%= lead.status %></td>
-        <td><%= lead.amount %></td>
-        <td><%= lead.probability %></td>
-        <td><%= link_to 'Show', lead, class: 'btn btn-sn btn-link' %></td>
+        <td class="text-success"><%= lead.amount %>€</td>
+        <td><%= lead.probability %>%</td>
         <td><%= link_to 'Edit', edit_lead_path(lead), class: 'btn btn-sm btn-outline-primary' %></td>
         <td><%= link_to 'Destroy', lead, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-outline-danger' %></td>
       </tr>
