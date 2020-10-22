@@ -6,13 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Lead.create(name: 'Acme Corp', description: 'email: john.doe@acme.corp', status: 'todo', amount: 1000, probability: 50)
-Lead.create(name: 'The World company', description: 'email: steve.doe@twc.corp', status: 'todo', amount: 500, probability: 25)
-Lead.create(name: "You Don't Need a CRM", description: 'email: mrawesome@youdontneedacrm.com', status: 'lost', amount: 1000, probability: 0)
-Lead.create(name: 'Poire', description: 'email: stephane.travaux@poire.fr', status: 'won', amount: 6000, probability: 100)
-
 require 'faker'
 
-15.times do
-  Lead.create(name: Faker::FunnyName.name, description: "email: #{Faker::Internet.email}", status: Lead::STATUSES.sample, amount: Faker::Number.number(digits: 2)*100, probability: (0..100).to_a.sample)
+100.times do
+  date = Faker::Time.between(from: 6.month.ago.at_beginning_of_month, to: Time.now)
+  Lead.create(name: Faker::FunnyName.name, description: "email: #{Faker::Internet.email}", status: Lead::STATUSES.sample, amount: Faker::Number.number(digits: 2)*100, probability: (0..100).to_a.sample, created_at: date, updated_at: date)
 end
