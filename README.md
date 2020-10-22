@@ -79,15 +79,11 @@ L'objectif est de permettre à l'utilisateur de définir l'étape dans laquelle 
         
 ### Partie 2
 
-L'objectif est de fournir à l'utilisateur une page de statistiques sur la performance de ses leads.
-
-Créer une page qui affiche des statistiques par période : **semaine** ou **mois**
-
-La page affiche les 5 dernières périodes + la période courante.
-
-Si nous sommes en octobre et en statistiques par mois, afficher les mois mai à octobre
-
-Si nous sommes en semaine 18 et en statistiques par semaine, afficher les semaines 13 à 18
+L'objectif est de fournir à l'utilisateur une page de statistiques sur la performance de ses leads.<br/>
+Créer une page qui affiche des statistiques par période : **semaine** ou **mois**<br/>
+La page affiche les 5 dernières périodes + la période courante.<br/>
+Si nous sommes en octobre et en statistiques par mois, afficher les mois mai à octobre<br/>
+Si nous sommes en semaine 18 et en statistiques par semaine, afficher les semaines 13 à 18<br/>
 
 L'utilisateur doit pouvoir changer la période (semaine ou mois)
 
