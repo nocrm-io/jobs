@@ -71,7 +71,7 @@ L'objectif est de permettre à l'utilisateur de définir l'étape dans laquelle 
 - Compléter les tests unitaires du lead
 - Créer une route `/leads/pipeline` :
     - Cette page affiche autant de colonnes que d'étapes (Step)
-    - Afficher les 5 leads par étape, dans l'ordre de dernière modification
+    - Afficher les 5, triés par ordre de dernière modification
     - Pour chaque lead, afficher le `name`, le `status`, l'`amount` et la date de dernière modification
     - A côté du nom de l'étape, afficher :
         - le nombre **total** de leads dans le Step
