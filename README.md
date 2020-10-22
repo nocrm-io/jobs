@@ -91,8 +91,9 @@ Pour chaque période, afficher :
 - le nombre de leads créées
 - parmis ces leads, le nombre de "won", le nombre de "lost", et le nombre d'"active" (active = "todo" + "standby")
 
-Exemple : 
-- 7 opportunités créées
--- 2 won
--- 3 lost
--- 2 active
+Exemple :
+
+- 7 opportunités créées<br/>
+-- 2 won<br/>
+-- 3 lost<br/>
+-- 2 active<br/>
