@@ -53,7 +53,7 @@ Chaque lead a un statut (todo, standby, won, lost) - les statuts sont définis d
 
 L'application "jobs" est une version très basique de noCRM qui contient uniquement le modèle Lead et la notion de statut.
 
-L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape dans laquelle se trouve son lead, et de lui afficher un pipeline. Chaque lead appartenant à une et une seule étape (Step) du pipeline.
+L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape dans laquelle se trouve son lead, et de lui afficher un pipeline. Chaque lead appartenant obligatoirement à une et une seule étape (Step) du pipeline.
 
 - Créer le modèle Step avec les champs `name` et `position` (`Integer`)
     - `name` doit être unique, minimum 3 caractères, max 32
@@ -65,7 +65,7 @@ L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape 
     - Intégrer la relation entre le Lead et le Step, et compléter les tests unitaires de Lead.
 - Sur la page `leads/edit` :
     - Permettre de modifier l'étape du lead
-- Quand l'utilisateur passe le lead en "won", le lead doit automatiquement passer à la dernière étape, et la probabilité doit passer à 100.
+- Quand un lead passe au statut "won", i doit automatiquement passer à la dernière étape, et sa probabilité doit passer à 100.
 - Créer une route `/leads/pipeline` :
     - Cette page affiche autant de colonnes que d'étapes (Step)
     - 5 leads maximum par étape, les leads modifiés le plus récemment en premier
