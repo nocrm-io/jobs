@@ -62,7 +62,7 @@ L'objectif est de permettre à l'utilisateur de définir l'étape dans laquelle 
     - `position` doit être unique
     - Dans le fichier `seed.rb`:
         - Ajouter la création de 4 étapes (par exemple dans l'ordre "Entrant", "Contacté", "Négociation", "Closing")
-        - Répartir tous les leads dans les 4 étapes, de façon égale, en mettant les 5 premiers leads (5 premiers ID) dans la 1ère étape, les 5 suivants dans la 2ème, etc)
+        - Répartir tous les leads dans les 4 étapes, de façon égale, en mettant les 25 premiers leads (25 premiers ID) dans la 1ère étape, les 25 suivants dans la 2ème, etc)
         - :warning: **Ne pas modifier les updated_at des leads.**
     - Intégrer la relation entre le Lead et le Step
 - Sur la page `leads/edit` :
