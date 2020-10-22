@@ -78,4 +78,4 @@ L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape 
 
 Il n'est pas nécessaire pour cet exercice d'améliorer l'interface, tant qu'elle est fonctionnelle et lisible.
 
-Une fois l'exercice terminé, archiver le code et l'envoyer à [greatjob@youdontneedacrm.com](mailto:greatjob@youdontneedacrm.com)
+Une fois l'exercice terminé, envoyer un lien vers la pull request à [greatjob@youdontneedacrm.com](mailto:greatjob@youdontneedacrm.com)
