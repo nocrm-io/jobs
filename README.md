@@ -82,8 +82,11 @@ L'objectif est de permettre à l'utilisateur de définir l'étape dans laquelle 
 L'objectif est de fournir à l'utilisateur une page de statistiques sur la performance de ses leads.
 
 Créer une page qui affiche des statistiques par période : **semaine** ou **mois**
+
 La page affiche les 5 dernières périodes + la période courante.
+
 Si nous sommes en octobre et en statistiques par mois, afficher les mois mai à octobre
+
 Si nous sommes en semaine 18 et en statistiques par semaine, afficher les semaines 13 à 18
 
 L'utilisateur doit pouvoir changer la période (semaine ou mois)
@@ -92,7 +95,7 @@ Pour chaque période, afficher :
 - le nombre de leads créées
 - parmis ces leads, le nombre de "won", le nombre de "lost", et le nombre d'"active" (active = "todo" + "standby")
 
-Ex: 
+Exemple : 
 - 7 opportunités créées
 -- 2 won
 -- 3 lost
