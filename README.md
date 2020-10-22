@@ -7,7 +7,8 @@ This test is part of our hiring process.
 1. **clone** the repository, don't fork it
 2. Create a new branch
 3. Commit your implementation of the test
-4. Make a pull request and contact us !
+4. Make a pull request on your repository 
+5. Make the repo public or invite us to access it. 
 
 ## Requirements
 
