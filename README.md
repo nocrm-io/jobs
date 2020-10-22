@@ -65,17 +65,13 @@ L'objectif de l'exercice est de permettre à l'utilisateur de définir l'étape 
     - Intégrer la relation entre le Lead et le Step, et compléter les tests unitaires de Lead.
 - Sur la page `leads/edit` :
     - Permettre de modifier l'étape du lead
-- Quand un lead passe au statut "won", i doit automatiquement passer à la dernière étape, et sa probabilité doit passer à 100.
+- Quand un lead passe au statut "won", il doit automatiquement passer à la dernière étape, et sa probabilité doit passer à 100.
 - Créer une route `/leads/pipeline` :
     - Cette page affiche autant de colonnes que d'étapes (Step)
     - 5 leads maximum par étape, les leads modifiés le plus récemment en premier
-    - Pour chaque lead, afficher le `name`, le `status` et la date de dernière modification
+    - Pour chaque lead, afficher le `name`, le `status`, l'`amount` et la date de dernière modification
     - A côté du nom de l'étape, afficher :
         - le nombre **total** de leads dans le Step
         - le montant **total** représenté par ces leads
 
-    :warning: Attention, certains de nos clients traitent des dizaines de milliers de leads dans des pipelines pouvant contenir 20 ou 30 steps, penser à optimiser le code.
-
 Il n'est pas nécessaire pour cet exercice d'améliorer l'interface, tant qu'elle est fonctionnelle et lisible.
-
-Une fois l'exercice terminé, envoyer un lien vers la pull request à [greatjob@youdontneedacrm.com](mailto:greatjob@youdontneedacrm.com)
